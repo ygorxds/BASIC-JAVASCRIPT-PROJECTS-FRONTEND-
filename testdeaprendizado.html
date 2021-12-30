@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--Nesse projeto vou me testar-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEBA AGUA</title>
+    <style>
+        body
+        {
+            background-color: lightskyblue;
+            color: lightyellow;
+            font: normal 25pt Arial;
+
+        }
+        h1 
+        {
+            font: bold
+        }
+
+    </style>
+</head>
+<body>
+    <h1>BEBA AGUA</h1>
+    <p>Essa aplicação calcula o quanto de agua você bebeu hoje</p>
+</body>
+<script>
+    var water = Number(prompt('Quantos ML de agua você bebeu?'));
+    var aux = water;
+    var total = water+aux;
+    document.writeln(` ${water} + ${aux}`);
+    document.writeln(`Você agora ingeriu ${water} e já tomou hoje ${aux}, portanto você tomou ${total} ml até agora.`);
+</script>
+</html>
+

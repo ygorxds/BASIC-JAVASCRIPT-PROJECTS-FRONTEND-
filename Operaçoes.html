@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipos primitivos</title>
+    <style>
+        body{
+            background-color: black;
+            color: white; /* comentário em css*/
+            font: normal 15pt Arial;
+        }
+        h1
+        {
+            background-color: black;
+            color: white;
+            font: normal 40pt Arial bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Operando dados usando JS</h1> <!--Comentário em HTML-->
+    <p>Esse é um micro projeto do Ygor Pereira</p>
+    <script>
+        var n1 =Number(prompt('insire valor 1'));//variável 1 string
+        var n2 = Number(prompt('insira o valor 2')); // variável 2 string
+        var n3=(n1+n2);
+        document.write(`a soma de ${n1} + ${n2} é ${n3}`);  
+
+        //Gostaria de salvar um comando que faz dinheiro aparecer já formatado na moeda que necessita, não usei nesse projeto mas pode ser util:
+        //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+        //n1 é a sua variável
+
+
+    </script>
+</body>
+</html>
